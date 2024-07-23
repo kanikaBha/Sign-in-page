@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glassmorphism Login Form | CodingNepal</title>
+  <link rel="stylesheet" href="HOME.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="#">
+      <h2>Login</h2>
+      <div class="input-field">
+        <input id="name" type="name" required>
+        <label>Enter your name</label>
+      </div>
+        <div class="input-field">
+        <input id="email" type="text" required>
+        <label>Enter your email</label>
+      </div>
+      <div class="input-field">
+        <input id="pass" type="password" required>
+        <label>Enter your password</label>
+      </div>
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox" id="remember">
+          <p>Remember me</p>
+        </label>
+        <a href="#" onclick="forgotPass()" >Forgot password?</a>
+      </div>
+      <button onclick="login()" type="submit">Log In</button>
+      <div class="register">
+        <p>Don't have an account? <button onclick="register()" >Register </button> </p>
+      </div>
+    </form>
+  </div>
+</body>
+
+<script src="Home.js"></script>
+</html>
